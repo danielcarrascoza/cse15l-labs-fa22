@@ -1,16 +1,12 @@
-# this is to see pages.
+# CSE 15L web page.
 
 
-_Make it italic_
+_fun_
 
-__Make it bold__ 
-
-
-# CSE 15L Lab
-
-## CSE 15L 
-
-[google](https://www.google.com/)
+__bold fun__ 
 
 
-![screenshot](cselab0ss.png)
+## Lab links:
+
+[Lab 0](https://github.com/danielcarrascoza/cse15l-labs-fa22/blob/main/cselab0ss.png)
+
