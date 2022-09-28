@@ -10,4 +10,4 @@ __Make it bold__
 
 ## CSE 15L 
 
-[google]([http://a.com](https://www.google.com/))
+google((https://www.google.com/))
