@@ -13,4 +13,4 @@ __Make it bold__
 [google](https://www.google.com/)
 
 
-[](./week0screenshot)
+[](./cselab0ss.png)
