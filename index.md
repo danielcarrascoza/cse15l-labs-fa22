@@ -10,4 +10,4 @@ __Make it bold__
 
 ## CSE 15L 
 
-[google]((https://www.google.com/))
+[google](https://www.google.com/)
