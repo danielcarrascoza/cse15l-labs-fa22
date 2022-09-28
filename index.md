@@ -13,4 +13,4 @@ __Make it bold__
 [google](https://www.google.com/)
 
 
-[](./cselab0ss.png)
+![screenshot](C:\Users\daniel\OneDrive\Documents\GitHub\cse15l-labs-fa22\cselab0ss.png)
