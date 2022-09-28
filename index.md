@@ -8,5 +8,5 @@ __bold fun__
 
 ## Lab links:
 
-[Lab 0](https://github.com/danielcarrascoza/cse15l-labs-fa22/blob/main/cselab0ss.png)
+[Lab 0]https://<danielcarrascoza>.github.io/<cse15l-labs-fa22>/lab-report-1-week-0.html)
 
