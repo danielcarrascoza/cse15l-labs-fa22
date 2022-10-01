@@ -1,9 +1,9 @@
 # CSE 15L web page.
 
 
-_fun_
+_Lab pages using git_
 
-__bold fun__ 
+__Daniel Carrascoza__ 
 
 
 ## Lab links:
