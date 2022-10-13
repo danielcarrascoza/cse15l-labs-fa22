@@ -30,7 +30,7 @@ I got this:
 ![screenshot](newscreenshot3.png)
 Then I moved this into the remote server by using scp and writing the correct path. 
 I was successfull with this step so I got this as my result
-![screenshot](newscreenshot2.png.png)
+![screenshot](newscreenshot2.png)
 ## Step 5 
 
 __No password for login__
@@ -38,6 +38,7 @@ __No password for login__
 In order to make it possible to login without an ssh key, you have to create a public and private rsa id. 
 
 Use mkdir in the server to create the directroy where you will store the copied public rsa_id from your designated path.
+![screenshot](newscreenshotsshkey.png)
 ![screenshot](ssh-file-location.png)
 Following the path given, make sure that you copy the public file into the remote server using the scp command and saving it into. 
 
