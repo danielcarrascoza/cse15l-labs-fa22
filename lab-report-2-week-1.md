@@ -27,10 +27,10 @@ __WhereAmI.java and moving files with scp__
 First, I made my file WhereAmI.java and then compiled it to my local computer. I ran into problems in where I was running my file, so I had to make sure that I wasn't running my terminal in the right directory. 
 I got this: 
 ![screenshot](WhereAmI1.png)
-![screenshot](WhereAmI2.png)
+![screenshot](newscreenshot3.png)
 Then I moved this into the remote server by using scp and writing the correct path. 
 I was successfull with this step so I got this as my result
-![screenshot](WhereAmI3.png)
+![screenshot](newscreenshot2.png.png)
 ## Step 5 
 
 __No password for login__
