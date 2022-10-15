@@ -36,12 +36,12 @@ I was successfull with this step so I got this as my result
 __No password for login__
 
 In order to make it possible to login without an ssh key, you have to create a public and private rsa id. 
-
+![screenshot](making-ssh-key.png)
 Use mkdir in the server to create the directroy where you will store the copied public rsa_id from your designated path.
 ![screenshot](newscreenshotsshkey.png)
 ![screenshot](ssh-file-location.png)
 Following the path given, make sure that you copy the public file into the remote server using the scp command and saving it into. 
-
+![screenshot](copyingintoremoteserver.png)
 After this updated I was able to log in to the server without being prompted to enter a passcode.
 ![screenshot](no-passcode.png)
 ## Step 6 
