@@ -25,7 +25,8 @@ danielcarrascoza@Daniels-MacBook-Air technical %
 
 - Now, lets use find to find a specific file name by using ```find filename.type -type f```
 
-```danielcarrascoza@Daniels-MacBook-Air technical % find ./plos/journal.pbio.002000
+```
+danielcarrascoza@Daniels-MacBook-Air technical % find ./plos/journal.pbio.002000
 1.txt -type f
 ./plos/journal.pbio.0020001.txt
 danielcarrascoza@Daniels-MacBook-Air technical % 
@@ -110,12 +111,16 @@ danielcarrascoza@Daniels-MacBook-Air docsearch %  find . -type f -size -1024c
 ./technical/plos/pmed.0020226.txt
 ```
 
+- finding files with -1024c in docsearch directory. all other files are filtered out.
+
 - find direcoties with size +3k -size -5k
 
 ```
 danielcarrascoza@Daniels-MacBook-Air docsearch % find . -type d -size +3k -size -5k
 ./technical/government/Media
 ```
+
+-finds directories in a specific range by using two size parameters. Other directories are filtered out.
 
 - changing up the size in technical
 ```
@@ -138,24 +143,26 @@ danielcarrascoza@Daniels-MacBook-Air docsearch % find ./technical  -type f -size
 ./technical/plos/pmed.0020082.txt
 ./technical/plos/pmed.0020120.txt
 ```
+- Here we use the find and type command to look for files with -2048c in the technical directory. Filles that do not fufill the file requirement do not show up.
 
 ### using find ./technical -iname [file name]
 
 - case insensitive to find paths for files.
 
 ```
-danielcarrascoza@Daniels-MacBook-Air docsearch % find ./technical -iname "sept*.txt"
+danielcarrascoza@Daniels-MacBook-Air docsearch % find ./technical -iname "SEPT*.txt"
 ./technical/government/Gen_Account_Office/Sept27-2002_d02966.txt
 ./technical/government/Gen_Account_Office/Sept14-2002_d011070.txt
 danielcarrascoza@Daniels-MacBook-Air docsearch %
 ```
-
+- The result of the command has lowercase in the file specified but the command itself is all in caps.
 - Here, lets check using iname to find a capital file with lowercase in the command
 
 ```
 danielcarrascoza@Daniels-MacBook-Air technical % find ./government -iname "config*.txt" 
 ./government/About_LSC/CONFIG_STANDARDS.txt
 ```
+- We can see that the config is not capitalized in the command line but is in the results.
 
 - Lets try it again and also combine this with a size command
 
