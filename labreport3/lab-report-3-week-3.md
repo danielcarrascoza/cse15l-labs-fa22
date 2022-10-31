@@ -52,7 +52,7 @@ class SearchEngineServer {
 ```
 When the URL path contains /add, the code will prepare to add a string value into an arraylist. 
 - Here I add automobile as the argument.
-![addAutomibile](ss-of-automobile.png)
+![addAutomibile](ss-of-auto.png)
 
 - Then I add chicken, and chicken and rice
 ![addchicken](ss-of-chicken.png)
