@@ -15,3 +15,5 @@ __Daniel Carrascoza__
 [Lab 2](https://danielcarrascoza.github.io/cse15l-labs-fa22/labreport3/lab-report-3-week-3.html)
 
 [Lab 3](https://danielcarrascoza.github.io/cse15l-labs-fa22/labreport4/lab-report-4.html) 
+
+[Lab 4](https://danielcarrascoza.github.io/cse15l-labs-fa22/labreport54/lab-report-5.html)
