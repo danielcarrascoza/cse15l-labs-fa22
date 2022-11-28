@@ -18,4 +18,4 @@ __Daniel Carrascoza__
 
 [Lab 4](https://danielcarrascoza.github.io/cse15l-labs-fa22/labreport54/lab-report-5.html)
 
-[Lab 5](https://danielcarrascoza.github.io/cse15l-labs-fa22/
+[Lab 5](https://danielcarrascoza.github.io/cse15l-labs-fa22/labreport5/lab-report-5.html)
