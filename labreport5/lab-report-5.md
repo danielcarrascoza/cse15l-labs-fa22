@@ -77,13 +77,13 @@ block 1
 - cd is moving into the student-submission directory
 
 
-
+block 2
 - `-f` command will search through the file, looking for it, and awarding points for it being there. 
 - if the file is there, a point will be given, if not, the script will exit with 0 points.
 set `+e` command stops the immediate exit.
 
 
-
+block 3
 - javac is the compile command, and then stderr is redirected to `compile-err.txt`. 
 - if the code compiles, 1 point is made. if not, the estudent recieves no points and the script exits.
 
