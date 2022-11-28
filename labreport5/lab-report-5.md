@@ -70,11 +70,23 @@ fi
 ![ss](correcttmethod.png)
 
 ## Script Trace:
+block 1
 - JUNITPATH is a path for the junit command
 - `set -e` stops the code when the exit code is not 0
 - creates a new directory adn removes the previous one, then it cp to move into a new directory
-- cd is moving into the student directory
-- `-f` command will search through the file, looking for it, and awarding points for it being there. set `+e` command stops the immediate exit.
+- cd is moving into the student-submission directory
+
+
+
+- `-f` command will search through the file, looking for it, and awarding points for it being there. 
+- if the file is there, a point will be given, if not, the script will exit with 0 points.
+set `+e` command stops the immediate exit.
+
+
+
 - javac is the compile command, and then stderr is redirected to `compile-err.txt`. 
-- now, using `java` function, we will go throught the tests and will see if the exit code is euqal to zero, if the test-err.txt exists or not. If the exit code is 0, then the grade is 100%.
+- if the code compiles, 1 point is made. if not, the estudent recieves no points and the script exits.
+
+
+- now, using `java` function, we will go throught the tests and will see if the exit code is equal to zero, if the test-err.txt exists or not. If the exit code is 0, then the grade is 100%.
  
